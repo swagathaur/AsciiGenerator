@@ -1,15 +1,11 @@
-﻿  main.cpp
-main.cpp(8): warning C4005: '_WIN32_WINNT': macro redefinition
-  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(200): note: see previous definition of '_WIN32_WINNT'
-main.cpp(41): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
-main.cpp(82): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-main.cpp(83): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-main.cpp(84): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-main.cpp(109): warning C4018: '<': signed/unsigned mismatch
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+D:\Repos\Ascii Image Generator\Project1\main.cpp(9,1): warning C4005: '_WIN32_WINNT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sdkddkver.h(217): message : see previous definition of '_WIN32_WINNT'
+D:\Repos\Ascii Image Generator\Project1\main.cpp(60,30): warning C4018: '<': signed/unsigned mismatch
   Generating code
-  1 of 532 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  61 of 423 functions (14.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    7 functions had inline decision re-evaluated but remain unchanged
+    20 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Project1.vcxproj -> c:\users\aidan.mckeown\documents\visual studio 2015\Projects\Project1\Release\Project1.exe
-  Project1.vcxproj -> c:\users\aidan.mckeown\documents\visual studio 2015\Projects\Project1\Release\Project1.pdb (Full PDB)
+  Project1.vcxproj -> D:\Repos\Ascii Image Generator\Release\Ascii Image Generator.exe
